@@ -178,9 +178,9 @@ git clone --depth=1 https://gitee.com/wan13877501248/y-tian-plugin.git ./plugins
 
 | 名单     | 联系方式     | 职责     |
 | -------- | ------------ | ------------ |
-| 鸢    | QQ2166683295 | 阴天工作室全栈开发工程师 |
-| 天球生物 | QQ928368902 | 阴天工作室Python，JavaScript工程师|
-| Mr.k   | QQ3302843718 | 阴天工作室UI设计师 |
+| 鸢    | QQ2166683295 | 全栈开发 |
+| 天球生物 | QQ928368902 | Python，JavaScript工程师|
+| Mr.k   | QQ3302843718 | UI设计 |
 
 ###  :sunglasses: 传送门
 
