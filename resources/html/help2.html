@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Help Menu</title>
+<style>
+  @font-face {
+    font-family: "jty";
+    src: url("{{src}}");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+  body {
+    font-family: "jty", sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .main-title {
+    font-family: "jty", cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(left, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .title {
+    display: inline-block;
+    font-size: 24px;
+    background: -webkit-linear-gradient(left, #000000, #97694F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+  .feature-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .feature-item:nth-child(odd) {
+    background: linear-gradient(135deg, #55efc4, #81ecec);
+  }
+
+  .feature-item:nth-child(even) {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    color: #fff;
+  }
+
+ .feature-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3436;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+  .feature-item .title {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .feature-item p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .created-by {
+    font-size: 20px;
+    background: -webkit-linear-gradient(right, #ff7675, #fd79a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+  }
+</style>
+</head>
+<body>
+<div class="main-title">☁️(Y-Tian-Plugin-Help)☁️</div>
+<div class="panel">
+  
+<div class="title">娱乐功能:</div>
+  
+<div class="feature-grid">
+
+<div class="feature-item">
+    
+<span class="feature-number">1</span>
+    
+<div>
+      
+<div class="title">娱乐功能</div>
+      
+<p>具体请发送: /娱乐帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">2</span>
+    
+<div>
+      
+<div class="title">游戏功能</div>
+      
+<p>具体请发送: /游戏帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">3</span>
+    
+<div>
+      
+<div class="title">图文影视</div>
+      
+<p>具体请发送: /图视帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">4</span>
+    
+<div>
+      
+<div class="title">阴天小功能</div>
+      
+<p>具体请发送: /小功能帮助</p>
+    
+</div>
+  
+</div>
+  
+</div>
+  
+</div>
+  
+<div class="panel">
+  
+<div class="title">管理功能:</div>
+  
+<div class="feature-grid">
+<div class="feature-item">
+    
+<span class="feature-number">1</span>
+    
+<div>
+      
+<div class="title">群聊管理</div>
+      
+<p>具体请发送: /群管帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">2</span>
+    
+<div>
+      
+<div class="title">AI总管理</div>
+      
+<p>具体请发送: /AI总帮助</p>
+    
+</div>
+  
+</div>
+  
+</div>
+  
+</div>
+  
+<div class="panel">
+  
+<div class="title">发电专享(VIP):</div>
+  
+<div class="feature-grid">
+
+<div class="feature-item">
+    
+<span class="feature-number">1</span>
+    
+<div>
+      
+<div class="title">AI-积分方案(付费)</div>
+      
+<p>具体请发送: /god帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">2</span>
+    
+<div>
+      
+<div class="title">AI-Sess方案(免费)</div>
+      
+<p>具体请发送: /sess帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">3</span>
+    
+<div>
+      
+<div class="title">AI-附加方案(附赠)</div>
+      
+<p>具体请发送: /AI附加版帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">4</span>
+    
+<div>
+      
+<div class="title">AI-专业方案(付费)</div>
+      
+<p>具体请发送: /AI专业版帮助</p>
+    
+</div>
+  
+</div>
+  
+</div>
+  
+</div>
+  
+<div class="panel">
+  
+<div class="title">免费AI专栏:</div>
+  
+<div class="feature-grid">
+
+<div class="feature-item">
+    
+<span class="feature-number">1</span>
+    
+<div>
+      
+<div class="title">免费AI</div>
+      
+<p>具体请发送: /AI免费版帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">2</span>
+    
+<div>
+      
+<div class="title">国产AI</div>
+      
+<p>具体请发送: /AI国产版帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">3</span>
+    
+<div>
+      
+<div class="title">AI交互</div>
+      
+<p>具体请发送: /AI交互帮助</p>
+    
+</div>
+  
+</div>
+  
+<div class="feature-item">
+    
+<span class="feature-number">4</span>
+    
+<div>
+      
+<div class="title">AI画图</div>
+      
+<p>具体请发送: /阴天画图帮助</p>
+    
+</div>
+  
+</div>
+  
+</div>
+  
+</div>
+  
+<div class="created-by">Created by Y-Tian-Plugin&&Yunzai-Bot</div>
+
+</body>
+
+</html>

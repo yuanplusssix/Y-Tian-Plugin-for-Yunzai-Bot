@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>设置面板</title>
+    <style>
+@font-face {
+  font-family: "jty";
+  src: url("{{src}}");
+  font-weight: normal;
+  font-style: normal;
+}
+        body {
+            font-family: "jty";
+            background-color: #98FB98;
+            padding: 50px;
+
+        }
+        .card {
+            background: linear-gradient(to right, #FFD700, #F0E68C);
+            width: 800px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+        .settings, .status {
+            width: 50%;
+            padding: 20px;
+        }
+        .settings-item, .status-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+        }
+        .settings-item {
+            background-color:#ADD8E6; 
+            color:  black;
+            transition: all 0.3s ease;
+        }
+        .status-item {
+            background-color: #7B68EE; 
+            color:#fff;
+            transition: all 0.31s ease;
+        }
+        .settings-item:hover, .status-item:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transform: translate3D(0, -1px, 0);
+        }
+         h2 {
+            color: #DB9370;
+            border-bottom: 1px solid  #4E2F2F;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+     </style>
+</head>
+<body>
+    <div class="card">
+        <div class="settings">
+            <h2>AI总设置页</h2>
+            <div class="settings-item">※ 当前at方案</div>
+            <div class="settings-item">※ 艾特回复</div>
+            <div class="settings-item">※ god触发名</div>
+            <div class="settings-item">※ chat触发名</div>
+            <div class="settings-item">※ 附加触发名</div>
+            <div class="settings-item">※ sess触发名</div>
+            <div class="settings-item">※ 当前对话方式</div>
+            <div class="settings-item">※ 私聊对话</div>  
+            <div class="settings-item">※ 私聊方案</div>
+            <div class="settings-item">※ tts回复</div>
+            <div class="settings-item">※ tts角色</div>
+            <div class="settings-item">※ 禁用方案</div>
+            <div class="settings-item">※ 禁用群聊</div>
+           <div class="settings-item">※ 禁用群员</div>
+        </div>
+        <div class="status">
+            <h2>当前状态(≧▽≦)</h2>
+            <div class="status-item">※ : {{ai_chat}}</div>
+            <div class="status-item">※ : {{ai_chat_at}}</div>
+            <div class="status-item">※ : {{ai_name_godgpt}}</div>
+            <div class="status-item">※ : {{ai_name_chat}}</div>
+           <div class="status-item">※ : {{ai_name_others}}</div>
+            <div class="status-item">※ : {{ai_name_sess}}</div>
+            <div class="status-item">※ : {{ai_chat_style}}</div>
+            <div class="status-item">※ : {{ai_private_open}}</div>
+            <div class="status-item">※ : {{ai_private_plan}}</div>
+            <div class="status-item">※ : {{ai_tts}}</div>
+            <div class="status-item">※ : {{ai_tts_role}}</div>
+            <div class="status-item">※ : {{ai_ban_plans}}</div>
+            <div class="status-item">※ : {{ai_ban_group}}</div>
+          <div class="status-item">※ : {{ai_ban_number}}</div>
+        </div>
+    </div>
+</body>
+</html>
